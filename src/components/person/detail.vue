@@ -1,6 +1,5 @@
 <template>
-	<div class="container">
-		
+	<div class="container" style="position: relative;margin-top:7%;">		
 		<div class="row">
 			<div class="col-md-6">
 				<!--  人物卡片信息  -->

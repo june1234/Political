@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container" style="position: relative;margin-top:7%;">
 		<div id='mystate' style="height: 600px;background-color: #4d5d6d;"> </div>
 		<div style="height: 40px;line-height: 60px;"> ------------------华盛顿------------------</div>
 		<div class="legislators" style="display: block;">

@@ -2,10 +2,12 @@
   <div id="app">
     <app-aside></app-aside>
     <router-view/>
+     <go-top></go-top>
   </div>
 </template>
 
 <script>
+import GoTop from '@inotom/vue-go-top';
 import AppAside from "@/components/index/Aside.vue"
 export default {
   name: 'App',
@@ -16,6 +18,7 @@ export default {
   },
   components:{
     AppAside,
+    GoTop
   }
 }
 </script>

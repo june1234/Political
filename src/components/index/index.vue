@@ -1,23 +1,23 @@
 <template>
   <div>
     <app-header></app-header>
-    <div class="container" style="position:static;margin-top:600px;">
+    <div class="container">
       <div class="row">
         <div class="col-md-12 mx-auto">
           <div class="row" style="background-color: #fff;margin-bottom:20px; ">
             <h4 style="width:100%;line-height:60px;text-align:center;">美国政治观察</h4>
-            <div class="col-lg-12 col-md-12 mx-auto">
-              <div id="POITICIANS" style="width:100%;height:600px;"></div>
+            <div class="col-lg-4 col-md-12 mx-auto">
+              <div id="POITICIANS" style="width:100%;height:300px;"></div>
               <p>POITICIANS</p>
               <p>政治人物：建立政治人物知识库。从基本信息、教育状况、从政经历、现任职务、党团职务、早期经历和个人生活等多个维度记录政治人物的特征，绘制人物从政经历的时间轴，建立关系图谱。</p>
             </div>
-            <div class="col-lg-12 col-md-12 mx-auto">
-              <div id="IDEOLOGY" style="width:100%;height:600px;"></div>
+            <div class="col-lg-4 col-md-12 mx-auto">
+              <div id="IDEOLOGY" style="width:100%;height:300px;"></div>
               <p>IDEOLOGY</p>
               <p>意识倾向：美国历史上大多数政治人物意识倾向的主要方向是“自由主义”与“保守主义”（也称为“左”与“右”），我们通过DW-NOMINATE模型，对国会议员的投票结果进行分析，得到其意识倾向及领导力评分。此评分完全依据投票数据得出结论，无主观因素成分，具体方法见</p>
             </div>
-            <div class="col-lg-12 col-md-12 mx-auto">
-              <div id="MAP" style="width:100%;height:600px;"></div>
+            <div class="col-lg-4 col-md-12 mx-auto">
+              <div id="MAP" style="width:100%;height:300px;"></div>
               <p>POLITICAL MAP</p>
               <p>政治图谱：平台允许用户在美国地图上和自由保守的意识形态地图上查看美国历史上的每一次国会唱名表决信息。通过历史数据，直观的展示美国政治版图的变化。使用SkoposLabs的数据对美国国会审议中的议案投票结果提供预测</p>
             </div>
@@ -34,7 +34,7 @@
                 <li style="line-height:100px;"><span>新闻言论：10000条</span></li>
                 <li style="line-height:100px;"><span>推特：40000条</span></li>
               </ul>
-              <img src="../../assets/line.png" alt="">
+              <img src="../../assets/line.png" alt="" style="width:100%;">
             </div>
             <div class="col-lg-7 col-md-12 mx-auto">
               <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -403,35 +403,15 @@ export default {
       const poitiEcharts = this.$echarts.init(poiticians);
       // 指定图表的配置项和数据
       const option = {
-        title: {
-          text: "Congress at a Glance: Major Party Ideology"
-        },
         tooltip: {
           trigger: "axis",
           axisPointer: {
             type: "none"
           }
         },
-        legend: {
-          orient: "vertical",
-          right: 0,
-          top: "50%",
-          data: [
-            "Republican Party",
-            "Democratic Party",
-            "Congressional Median(Midpoint)",
-            "Range of Republican Party Ideology",
-            "Range of Democratic Party Ideology"
-          ],
-          textStyle: {
-            fontSize: 15,
-            padding: 8
-          }
-        },
         grid: {
-          width: 600,
-          height: 400,
-          top: 100
+          width: '100%',
+          height:300
         },
         xAxis: [
           {
@@ -913,36 +893,6 @@ export default {
             },
             ambient: {
               intensity: 0.3
-            }
-          }
-        },
-        visualMap: {
-          type: "continuous",
-          right: "0",
-          top: "0",
-          dimension: 2,
-          min: 0,
-          max: 1.1,
-          precision: 1,
-          itemWidth: 20,
-          itemHeight: 80,
-          calculable: true,
-          text: ["领导力"],
-          textGap: 30,
-          inRange: {
-            symbolSize: [5, 20],
-            colorLightness: [0.8, 0.4]
-          },
-          outOfRange: {
-            symbolSize: [5, 20],
-            color: ["rgba(255,255,255,.4)"]
-          },
-          controller: {
-            inRange: {
-              color: ["#696969"]
-            },
-            outOfRange: {
-              color: ["#A9A9A9"]
             }
           }
         },

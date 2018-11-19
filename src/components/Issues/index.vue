@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="position: relative;margin-top:7%;">
     <img src="" alt="">
     <div class="container" style="background-color:#fff;">
       <h3 style="color:#252525;line-height:60px;">议案列表</h3>

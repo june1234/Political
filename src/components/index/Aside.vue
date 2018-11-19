@@ -1,8 +1,8 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="mainNav">
-      <div class="container" >
-        <a class="navbar-brand" href="/" style="margin-left:-100px;">
+      <div class="container" style="margin-left:100px;margin-right:100px;">
+        <a class="navbar-brand" href="/">
           <img src="../../assets/1.svg" alt="">
           <span style="color:#f00;font-size:30px;">美国</span>   
           政治人物观察
@@ -11,7 +11,7 @@
           Menu
           <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-right:-100px;">
+        <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-right:-50%">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <router-link to="/person/list" class="nav-link">人物</router-link>
@@ -59,6 +59,8 @@ export default {
 
 <style scoped>
 #mainNav {
+  width: 100%;
+  position: absolute;
   border-bottom: 1px solid #e9ecef;
   background-color: #000;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -79,7 +81,7 @@ export default {
 
 #mainNav .navbar-nav > li.nav-item > a {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
 }

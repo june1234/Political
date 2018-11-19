@@ -14,6 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@inotom/vue-go-top": "^1.0.2",
     "jquery": "^3.3.1",
     "timeline-vuejs": "^0.3.0",
     "vue": "^2.5.2",

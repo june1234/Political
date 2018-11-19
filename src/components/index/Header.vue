@@ -1,6 +1,6 @@
 <template>
-  <div class="masthead">
-    <header>
+  <div >
+    <header class="masthead">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -57,17 +57,13 @@ export default {
   methods: {}
 };
 </script>
-
+import '../../assets/mo/css/clean-blog.css';
 <style scoped>
 .masthead {
   margin-bottom: 50px;
   background-color: #868e96;
   background-attachment: scroll;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  position: relative;
   background-size: cover;
   background-image: url("../../assets/header.jpg");
 }
@@ -93,7 +89,7 @@ export default {
   .masthead .page-heading,
   .masthead .post-heading,
   .masthead .site-heading {
-    padding: 300px 0;
+    padding: 400px 0;
   }
 }
 
