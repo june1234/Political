@@ -21,8 +21,8 @@
                 国会
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">概述</a>
-                <a class="dropdown-item" href="#">委员会</a>
+                <router-link class="dropdown-item" to="/congress">概述</router-link>
+                <router-link class="dropdown-item" to="/committee">委员会</router-link>
               </div>
             </li>
             <li class="nav-item">

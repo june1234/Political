@@ -1,0 +1,495 @@
+{
+    "Alabama": [
+        "Bradley.Byrne",
+        "Martha.Roby",
+        "Mike.Rogers",
+        "Robert.Aderholt",
+        "Mo.Brooks",
+        "Gary.Palmer",
+        "Terri.Sewell"
+    ],
+    "Alaska": [
+        "Don.Young"
+    ],
+    "Arizona": [
+        "Tom.O'Halleran",
+        "Martha.McSally",
+        "Raúl.Grijalva",
+        "Paul.Gosar",
+        "Andy.Biggs",
+        "David.Schweikert",
+        "Ruben.Gallego",
+        "Kyrsten.Sinema"
+    ],
+    "Arkansas": [
+        "Rick.Crawford",
+        "French.Hill",
+        "Steve.Womack",
+        "Bruce.Westerman"
+    ],
+    "California": [
+        "Doug.LaMalfa",
+        "Jared.Huffman",
+        "John.Garamendi",
+        "Tom.McClintock",
+        "Mike.Thompson",
+        "Doris.Matsui",
+        "Ami.Bera",
+        "Paul.Cook",
+        "Jerry.McNerney",
+        "Jeff.Denham",
+        "Mark.DeSaulnier",
+        "Nancy.Pelosi",
+        "Barbara.Lee",
+        "Jackie.Speier",
+        "Eric.Swalwell",
+        "Jim.Costa",
+        "Ro.Khanna",
+        "Anna.Eshoo",
+        "Zoe.Lofgren",
+        "Jimmy.Panetta",
+        "David.Valadao",
+        "Devin.Nunes",
+        "Kevin.McCarthy",
+        "Salud.Carbajal",
+        "Steve.Knight",
+        "Julia.Brownley",
+        "Judy.Chu",
+        "Adam.Schiff",
+        "Tony.Cárdenas",
+        "Brad.Sherman",
+        "Pete.Aguilar",
+        "Grace.Napolitano",
+        "Ted.Lieu",
+        "Norma.Torres",
+        "Raul.Ruiz",
+        "Karen.Bass",
+        "Linda.Sánchez",
+        "Ed.Royce",
+        "Lucille.Roybal-Allard",
+        "Mark.Takano",
+        "Ken.Calvert",
+        "Maxine.Waters",
+        "Nanette.Barragán",
+        "Mimi.Walters",
+        "Lou.Correa",
+        "Alan.Lowenthal",
+        "Dana.Rohrabacher",
+        "Darrell.Issa",
+        "Juan.Vargas",
+        "Scott.Peters",
+        "Susan.Davis"
+    ],
+    "Colorado": [
+        "Diana.DeGette",
+        "Jared.Polis",
+        "Scott.Tipton",
+        "Ken.Buck",
+        "Doug.Lamborn",
+        "Mike.Coffman",
+        "Ed.Perlmutter"
+    ],
+    "Connecticut": [
+        "Joe.Courtney",
+        "Rosa.DeLauro",
+        "Jim.Himes",
+        "Elizabeth.Esty"
+    ],
+    "Delaware": [
+        "Lisa.Blunt.Rochester"
+    ],
+    "Florida": [
+        "Matt.Gaetz",
+        "Neal.Dunn",
+        "Ted.Yoho",
+        "John.Rutherford",
+        "Al.Lawson",
+        "Stephanie.Murphy",
+        "Bill.Posey",
+        "Darren.Soto",
+        "Val.Demings",
+        "Daniel.Webster",
+        "Gus.Bilirakis",
+        "Charlie.Crist",
+        "Kathy.Castor",
+        "Vern.Buchanan",
+        "Tom.Rooney",
+        "Brian.Mast",
+        "Francis.Rooney",
+        "Alcee.Hastings",
+        "Lois.Frankel",
+        "Ted.Deutch",
+        "Debbie.Wasserman.Schultz",
+        "Frederica.Wilson",
+        "Mario.Díaz-Balart",
+        "Carlos.Curbelo",
+        "Ileana.Ros-Lehtinen"
+    ],
+    "Georgia": [
+        "Buddy.Carter",
+        "Sanford.Bishop",
+        "Drew.Ferguson",
+        "Hank.Johnson",
+        "John.Lewis",
+        "Rob.Woodall",
+        "Austin.Scott",
+        "Doug.Collins",
+        "Jody.Hice",
+        "Barry.Loudermilk",
+        "David.Scott",
+        "Tom.Graves"
+    ],
+    "Hawaii": [
+        "Colleen.Hanabusa",
+        "Tulsi.Gabbard"
+    ],
+    "Idaho": [
+        "Raúl.Labrador",
+        "Mike.Simpson"
+    ],
+    "Illinois": [
+        "Bobby.Rush",
+        "Robin.Kelly",
+        "Dan.Lipinski",
+        "Luis.Gutiérrez",
+        "Mike.Quigley",
+        "Peter.Roskam",
+        "Raja.Krishnamoorthi",
+        "Jan.Schakowsky",
+        "Brad.Schneider",
+        "Bill.Foster",
+        "Mike.Bost",
+        "Rodney.Davis",
+        "Randy.Hultgren",
+        "John.Shimkus",
+        "Adam.Kinzinger",
+        "Cheri.Bustos",
+        "Darin.LaHood"
+    ],
+    "Indiana": [
+        "Pete.Visclosky",
+        "Jackie.Walorski",
+        "Jim.Banks",
+        "Todd.Rokita",
+        "Susan.Brooks",
+        "Luke.Messer",
+        "André.Carson",
+        "Larry.Bucshon",
+        "Trey.Hollingsworth"
+    ],
+    "Iowa": [
+        "Rod.Blum",
+        "Dave.Loebsack",
+        "David.Young",
+        "Steve.King"
+    ],
+    "Kansas": [
+        "Roger.Marshall",
+        "Lynn.Jenkins",
+        "Kevin.Yoder"
+    ],
+    "Kentucky": [
+        "James.Comer",
+        "Brett.Guthrie",
+        "John.Yarmuth",
+        "Thomas.Massie",
+        "Hal.Rogers",
+        "Andy.Barr"
+    ],
+    "Louisiana": [
+        "Steve.Scalise",
+        "Cedric.Richmond",
+        "Clay.Higgins",
+        "Mike.Johnson",
+        "Ralph.Abraham",
+        "Garret.Graves"
+    ],
+    "Maine": [
+        "Chellie.Pingree",
+        "Bruce.Poliquin"
+    ],
+    "Maryland": [
+        "Andy.Harris",
+        "Dutch.Ruppersberger",
+        "John.Sarbanes",
+        "Steny.Hoyer",
+        "John.Delaney",
+        "Elijah.Cummings",
+        "Jamie.Raskin"
+    ],
+    "Massachusetts": [
+        "Richard.Neal",
+        "Jim.McGovern",
+        "Niki.Tsongas",
+        "Katherine.Clark",
+        "Seth.Moulton",
+        "Mike.Capuano",
+        "Bill.Keating"
+    ],
+    "Michigan": [
+        "Jack.Bergman",
+        "Bill.Huizenga",
+        "Justin.Amash",
+        "John.Moolenaar",
+        "Dan.Kildee",
+        "Fred.Upton",
+        "Tim.Walberg",
+        "Mike.Bishop",
+        "Sander.Levin",
+        "Paul.Mitchell",
+        "Debbie.Dingell",
+        "Brenda.Lawrence"
+    ],
+    "Minnesota": [
+        "Tim.Walz",
+        "Jason.Lewis",
+        "Erik.Paulsen",
+        "Betty.McCollum",
+        "Keith.Ellison",
+        "Tom.Emmer",
+        "Collin.Peterson",
+        "Rick.Nolan"
+    ],
+    "Mississippi": [
+        "Trent.Kelly",
+        "Bennie.Thompson",
+        "Gregg.Harper",
+        "Steven.Palazzo"
+    ],
+    "Missouri": [
+        "Lacy.Clay",
+        "Ann.Wagner",
+        "Blaine.Luetkemeyer",
+        "Vicky.Hartzler",
+        "Emanuel.Cleaver",
+        "Sam.Graves",
+        "Billy.Long"
+    ],
+    "Nebraska": [
+        "Jeff.Fortenberry",
+        "Don.Bacon",
+        "Adrian.Smith"
+    ],
+    "Nevada": [
+        "Dina.Titus",
+        "Mark.Amodei",
+        "Jacky.Rosen",
+        "Ruben.Kihuen"
+    ],
+    "New Hampshire": [
+        "Carol.Shea-Porter",
+        "Ann.McLane.Kuster"
+    ],
+    "New Jersey": [
+        "Donald.Norcross",
+        "Frank.LoBiondo",
+        "Tom.MacArthur",
+        "Chris.Smith",
+        "Josh.Gottheimer",
+        "Frank.Pallone",
+        "Leonard.Lance",
+        "Albio.Sires",
+        "Bill.Pascrell",
+        "Rodney.Frelinghuysen",
+        "Bonnie.Watson.Coleman"
+    ],
+    "New Mexico": [
+        "Michelle.Lujan.Grisham",
+        "Steve.Pearce"
+    ],
+    "New York": [
+        "Lee.Zeldin",
+        "Thomas.Suozzi",
+        "Kathleen.Rice",
+        "Gregory.Meeks",
+        "Grace.Meng",
+        "Nydia.Velázquez",
+        "Hakeem.Jeffries",
+        "Yvette.Clarke",
+        "Jerrold.Nadler",
+        "Dan.Donovan",
+        "Carolyn.Maloney",
+        "Adriano.Espaillat",
+        "Joseph.Crowley",
+        "Eliot.Engel",
+        "Nita.Lowey",
+        "Sean.Patrick.Maloney",
+        "John.Faso",
+        "Paul.Tonko",
+        "Elise.Stefanik",
+        "Claudia.Tenney",
+        "Tom.Reed",
+        "John.Katko",
+        "Brian.Higgins",
+        "Chris.Collins"
+    ],
+    "North Carolina": [
+        "George.Holding",
+        "David.Price",
+        "Virginia.Foxx",
+        "Mark.Walker",
+        "David.Rouzer",
+        "Richard.Hudson",
+        "Robert.Pittenger",
+        "Patrick.McHenry",
+        "Mark.Meadows",
+        "Alma.Adams",
+        "Ted.Budd"
+    ],
+    "North Dakota": [
+        "Kevin.Cramer"
+    ],
+    "Ohio": [
+        "Steve.Chabot",
+        "Brad.Wenstrup",
+        "Joyce.Beatty",
+        "Jim.Jordan",
+        "Bob.Latta",
+        "Bill.Johnson",
+        "Bob.Gibbs",
+        "Warren.Davidson",
+        "Marcy.Kaptur",
+        "Mike.Turner",
+        "Marcia.Fudge",
+        "Tim.Ryan",
+        "David.Joyce",
+        "Steve.Stivers",
+        "Jim.Renacci"
+    ],
+    "Oklahoma": [
+        "Markwayne.Mullin",
+        "Frank.Lucas",
+        "Tom.Cole",
+        "Steve.Russell"
+    ],
+    "Oregon": [
+        "Suzanne.Bonamici",
+        "Greg.Walden",
+        "Earl.Blumenauer",
+        "Peter.DeFazio",
+        "Kurt.Schrader"
+    ],
+    "Pennsylvania": [
+        "Bob.Brady",
+        "Dwight.Evans",
+        "Mike.Kelly",
+        "Scott.Perry",
+        "Glenn.Thompson",
+        "Ryan.Costello",
+        "Brian.Fitzpatrick",
+        "Bill.Shuster",
+        "Tom.Marino",
+        "Lou.Barletta",
+        "Keith.Rothfus",
+        "Lloyd.Smucker",
+        "Matt.Cartwright"
+    ],
+    "Rhode Island": [
+        "David.Cicilline"
+    ],
+    "South Carolina": [
+        "Mark.Sanford",
+        "Joe.Wilson",
+        "Jeff.Duncan",
+        "Trey.Gowdy",
+        "Jim.Clyburn",
+        "Tom.Rice"
+    ],
+    "South Dakota": [
+        "Kristi.Noem"
+    ],
+    "Tennessee": [
+        "Phil.Roe",
+        "Jimmy.Duncan",
+        "Chuck.Fleischmann",
+        "Scott.DesJarlais",
+        "Jim.Cooper",
+        "Diane.Black",
+        "Marsha.Blackburn",
+        "David.Kustoff",
+        "Steve.Cohen"
+    ],
+    "Texas": [
+        "Louie.Gohmert",
+        "Ted.Poe",
+        "Sam.Johnson",
+        "John.Ratcliffe",
+        "Jeb.Hensarling",
+        "Joe.Barton",
+        "John.Culberson",
+        "Kevin.Brady",
+        "Al.Green",
+        "Michael.McCaul",
+        "Mike.Conaway",
+        "Kay.Granger",
+        "Mac.Thornberry",
+        "Randy.Weber",
+        "Vicente.González",
+        "Beto.O'Rourke",
+        "Bill.Flores",
+        "Sheila.Jackson.Lee",
+        "Jodey.Arrington",
+        "Joaquín.Castro",
+        "Pete.Olson",
+        "Will.Hurd",
+        "Kenny.Marchant",
+        "Roger.Williams",
+        "Michael.Burgess",
+        "Henry.Cuellar",
+        "Gene.Green",
+        "John.Carter",
+        "Pete.Sessions",
+        "Marc.Veasey",
+        "Lloyd.Doggett",
+        "Brian.Babin"
+    ],
+    "Utah": [
+        "Rob.Bishop",
+        "Chris.Stewart",
+        "Mia.Love"
+    ],
+    "Vermont": [
+        "Peter.Welch"
+    ],
+    "Virginia": [
+        "Rob.Wittman",
+        "Scott.Taylor",
+        "Bobby.Scott",
+        "Donald.McEachin",
+        "Bob.Goodlatte",
+        "Dave.Brat",
+        "Don.Beyer",
+        "Morgan.Griffith",
+        "Barbara.Comstock",
+        "Gerry.Connolly"
+    ],
+    "Washington": [
+        "Suzan.DelBene",
+        "Rick.Larsen",
+        "Jaime.Herrera.Beutler",
+        "Dan.Newhouse",
+        "Cathy.McMorris.Rodgers",
+        "Derek.Kilmer",
+        "Pramila.Jayapal",
+        "Dave.Reichert",
+        "Adam.Smith",
+        "Dennis.Heck"
+    ],
+    "West Virginia": [
+        "David.McKinley",
+        "Alex.Mooney"
+    ],
+    "Wisconsin": [
+        "Paul.Ryan",
+        "Mark.Pocan",
+        "Ron.Kind",
+        "Gwen.Moore",
+        "Jim.Sensenbrenner",
+        "Glenn.Grothman",
+        "Sean.Duffy",
+        "Mike.Gallagher"
+    ],
+    "Wyoming": [
+        "Liz.Cheney"
+    ]
+}

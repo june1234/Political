@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: () => import('@/components/index/index.vue'),
+      component: () => import('@/components/index/index.vue')
     },
     {
       path: '/Remarks',
@@ -35,6 +35,16 @@ export default new Router({
       name: 'detail',
       params: { name: '特朗普' },
       component: () => import('@/components/person/detail.vue')
+    },
+    {
+      path: '/congress',
+      name: 'congress',
+      component: () => import('@/components/congress/congress.vue')
+    },
+    {
+      path: '/committee',
+      name: 'committee',
+      component: () => import('@/components/congress/committee.vue')
     }
   ]
 })
