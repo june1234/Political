@@ -210,7 +210,7 @@
             </div>
             <div class="col-md-6 col-xs-12">
               <h4>柱形图</h4>
-              <div></div>
+              <div id="mike" style="width:100%;height:500px;"></div>
               <p>个人简介</p>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -393,6 +393,7 @@ export default {
     this.POITICIANS();
     this.IDEOLOGY();
     this.MAP();
+    this.mike()
   },
   components: {
     AppHeader
@@ -1024,6 +1025,169 @@ export default {
       }
       window.addEventListener("resize", function() {
         MAPEcharts.resize();
+      });
+    },
+    mike(){
+      var res = require('../../assets/index/mike.json')
+			
+			var itemStyle = {
+			    normal: {
+			        opacity: 0.8,
+			        shadowBlur: 10,
+			        shadowOffsetX: 0,
+			        shadowOffsetY: 0,
+			        shadowColor: 'rgba(0, 0, 0, 0.5)'
+			    }
+			};
+			var a = []
+			var c = []
+			var oneperson = []
+			for(var i in res) {
+				var b = {}
+				var d = {}
+				var o = {}
+				if(res[i].nominate_dim1 > 0){
+					b.name = res[i].bioname
+					b.value = []
+					b.chamber = res[i].chamber
+					b.state_abbrev = res[i].state_abbrev
+					b.district_code = res[i].district_code
+					b.party = res[i].party
+					b.description = res[i].description
+					b.value.push(res[i].nominate_dim1)
+					b.value.push(res[i].nominate_dim2)
+					b.value.push(res[i].leadership)
+					a.push(b)
+				}
+				if(res[i].nominate_dim1 < 0){
+					d.name = res[i].bioname
+					d.value = []
+					d.chamber = res[i].chamber
+					d.state_abbrev = res[i].state_abbrev
+					d.district_code = res[i].district_code
+					d.party = res[i].party
+					d.description = res[i].description
+					d.value.push(res[i].nominate_dim1)
+					d.value.push(res[i].nominate_dim2)
+					d.value.push(res[i].leadership)
+					c.push(d)
+				}
+				if(res[i].bioguide_id == "P000602"){
+					o.name = res[i].bioname
+					o.value = []
+					o.chamber = res[i].chamber
+					o.state_abbrev = res[i].state_abbrev
+					o.district_code = res[i].district_code
+					o.party = res[i].party
+					o.description = res[i].description
+					o.value.push(res[i].nominate_dim1)
+					o.value.push(res[i].nominate_dim2)
+					o.value.push(res[i].leadership)
+					oneperson.push(o)
+				}
+			}
+      const dom=document.querySelector('#mike')
+			const myChart = this.$echarts.init(dom);
+			let option = null;
+			option = {
+				color: [
+			        '#dd4444', '#4169E1','#FFFF00'
+			    ],
+				tooltip: {
+					trigger: 'item',
+					formatter: function(params) {
+						console.log(params)
+						return '姓名:' + params.data.name + '<br/>' +
+							'选区:' + params.data.state_abbrev + params.data.district_code + '<br/>' +
+							'政党:' + params.data.party + '<br/>' +
+							'描述:' + params.data.description + '<br/>' +
+							'社会/种族维度:' + params.value[0] + '<br/>' +
+							'经济/再分配维度:' + params.value[1] + '<br/>' +
+							'领导力 :' + params.value[2]
+
+					}
+				},
+				xAxis: {
+					name: '经济/再分配\n维度',
+					type: 'value',
+					min: -1.0,
+					max: 1.0,
+					splitNumber: 10
+				},
+				yAxis: {
+					name: '社会/种族维度',
+					type: 'value',
+					min: -1.0,
+					max: 1.0,
+					splitNumber: 10
+				},
+				grid: {
+					boxWidth: '100%',
+					boxDepth: 500,
+					viewControl: {},
+					light: {
+						main: {
+							intensity: 1.2,
+							shadow: false
+						},
+						ambient: {
+							intensity: 0.3
+						}
+					}
+				},
+				
+				series: [{
+					type: 'scatter',
+					data: a,
+					shading: 'lambert',
+					itemStyle: itemStyle,
+					label: {
+						textStyle: {
+							fontSize: 16,
+							borderWidth: 1
+						}
+					}
+				},
+				{
+					type: 'scatter',
+					data: c,
+					shading: 'lambert',
+					itemStyle: itemStyle,
+					label: {
+						textStyle: {
+							fontSize: 16,
+							borderWidth: 1
+						}
+					}
+				},
+				{
+					type: 'scatter',
+					data: oneperson,
+					shading: 'lambert',
+					itemStyle: itemStyle,
+					markPoint: {
+               			symbol: 'pin',
+               			label: {show: true},
+               			itemStyle: {
+                    		color: 'Black'},
+               			data: [
+                    		{name: '周最低',value: "Pompeo", xAxis:0.66, yAxis: 0.164}
+                			],
+                		silent: true
+            			},
+					label: {
+					textStyle: {
+							fontSize: 16,
+							borderWidth: 1
+						}
+					}
+				}]
+			};
+			if(option && typeof option === "object") {
+				myChart.setOption(option, true);
+			}
+      window.addEventListener("resize", function() {
+        myChart.resize();
       });
     }
   }
