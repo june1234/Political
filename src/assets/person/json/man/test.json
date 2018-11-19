@@ -1,0 +1,32 @@
+{
+	"name": "Adam.Schiff",
+	"picture": "S001150.jpg",
+	"party":"Democratic",
+	"type":"2",
+	"personal": {
+		"Born": "Adam Bennett Schiff (1960-06-22) June 22, 1960 (age58)Framingham, Massachusetts, U.S.",
+		"Political party": "Democratic",
+		"Spouse(s)": "Eve Sanderson",
+		"Children": "2",
+		"Education": "Stanford University (BA)Harvard University (JD)"
+	},
+	"description":"dddddddd",
+	"economic":"100",
+	"social":"100",
+	"leadership":"100",
+	"timeline": {
+		"Member of theUS House of Representativesfrom California": {
+			"date": "Assumed office January 3, 1997",
+			"Preceded by": "James E. Rogan (27th)Henry Waxman (29th)Howard Berman (28th)",
+			"Succeeded by": "Brad Sherman (27th)Tony Cárdenas (29th)",
+			"Constituency": "27th district (1997–2003)29th district (2003–13)28th district (2013–)"
+		},
+		"Member of the California State Senate from the 21st district": {
+			"date": "In officeDecember 2, 1996– November 30, 2000",
+			"Preceded by": "Newton R. Russell",
+			"Succeeded by": "Jack Scott"
+		},
+		"code": "28"
+	},
+	"code": "S001150"
+}

@@ -1,0 +1,128 @@
+/*人物卡片样式*/
+.legislator-wrap.no-meta-bg {
+    padding-bottom: 35px;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+.legislator-wrap {
+    background-color: #fff;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+}
+.tweets-detail-wrap {
+    margin: 50px 0;
+}
+
+.tweet-wrapper {
+    position: relative;
+    background-color: #fff;
+    padding: 9px 20px 20px;
+    margin-bottom: 5px;
+}
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.media:first-child {
+    margin-top: 0;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-body {
+    width: 10000px;
+}
+
+.media, .media-body {
+    zoom: 1;
+    overflow: hidden;
+}
+
+.media {
+    margin-top: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.tweet-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1em;
+}
+
+
+.tweet-wrapper .tweet-date {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: .04em;
+    color: #9a9a9a;
+}
+.tweet-wrapper .tweet-text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.tweet-wrapper h2 a {
+    font-family: libre-bold;
+    color: #304356;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+p{
+    display: block;
+	line-height: 1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div {
+    display: block;
+}
+

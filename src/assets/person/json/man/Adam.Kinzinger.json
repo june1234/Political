@@ -1,0 +1,30 @@
+{
+	"name": "Adam.Kinzinger",
+	"picture": "",
+
+	"personal": {
+		"Born": "Adam Daniel Kinzinger (1978-02-27) February 27, 1978 (age40)Kankakee, Illinois, U.S.",
+		"Political party": "Republican",
+		"Education": "Illinois State University (BA)"
+	},
+	"timeline": {
+		"Member of the US House of Representativesfrom Illinois's 16th district": {
+			"date": "Assumed office January 3, 2013",
+			"Preceded by": "Don Manzullo"
+		},
+		"Member of the US House of Representativesfrom Illinois's 11th district": {
+			"date": "In officeJanuary 3, 2011– January 3, 2013",
+			"Preceded by": "Debbie Halvorson",
+			"Succeeded by": "Bill Foster"
+		},
+		"Military service": {
+			"Allegiance": "United States",
+			"Service/branch": "United States Air Force",
+			"Years of service": "2003–present",
+			"Rank": " Major",
+			"Battles/wars": "Operation Iraqi FreedomWar in Afghanistan"
+		},
+		"code": "16"
+	},
+	"code": ""
+}
