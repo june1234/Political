@@ -1,0 +1,929 @@
+{
+"nodes": [{
+			"id": "0",
+			"name": "唐纳德·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 0
+			}
+			"imge":"./img/220px-Donald_Trump_official_portrait.jpg",
+			"party":"共和党",
+			"age":"72岁",
+			"duties":"总统",
+			"relationship":"总统",
+			
+		},
+		{
+			"id": "1",
+			"name": "迈克·彭斯",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/220px-Mike_Pence_official_portrait.jpg",
+			"party":"共和党",
+			"age":"59岁",
+			"duties":"美国副总统",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "2",
+			"name": "梅拉尼娅·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 2
+			}
+			"imge":"./img/220px-Melania_Trump_official_portrait.jpg",
+			"party":"共和党",
+			"age":"48岁",
+			"duties":"美国第一夫人",
+			"relationship":"夫人",
+			
+		},
+		{
+			"id": "3",
+			"name": "小唐纳德·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 2
+			}
+			"imge":"./img/DJT_Jr_cropped_shadowing_fix.jpg",
+			"party":"共和党",
+			"age":"40岁",
+			"duties":"特朗普集团副董事长",
+			"relationship":"长子",
+			
+		},
+		{
+			"id": "4",
+			"name": "伊万卡·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 2
+			}
+			"imge":"./img/250px-Ivanka_Trump_official_photo.jpg",
+			"party":"共和党",
+			"age":"36岁",
+			"duties":"美国第一千金和总统顾问",
+			"relationship":"长女",
+			
+		},
+		{
+			"id": "5",
+			"name": "埃里克·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 2
+			}
+			"imge":"./img/220px-Eric_Trump_by_Gage_Skidmore.jpg",
+			"party":"共和党",
+			"age":"34岁",
+			"duties":"特朗普集团副董事长",
+			"relationship":"次子",
+			
+		},
+		{
+			"id": "6",
+			"name": "蒂芙尼·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 2
+			}
+			"imge":"./img/Tiffany_Trump_RNC_July_2016.jpg",
+			"party":"共和党",
+			"age":"25岁",
+			"duties":"模特、歌手",
+			"relationship":"次女",
+			
+		},
+		{
+			"id": "7",
+			"name": "巴伦·特朗普",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 2
+			}
+			"imge":"./img/Barron_Trump_2016.jpg",
+			"party":"共和党",
+			"age":"12岁",
+			"duties":"无",
+			"relationship":"三子",
+			
+		},
+		{
+			"id": "8",
+			"name": "希拉里·克林顿",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 3
+			}
+			"imge":"./img/240px-Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg",
+			"party":"民主党",
+			"age":"70岁",
+			"duties":"前美国国务卿（第67任）",
+			"relationship":"竞选对手",
+			
+		},
+		{
+			"id": "9",
+			"name": "迈克·蓬佩奧",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/440px-Mike_Pompeo_official_photo.jpg",
+			"party":"共和党",
+			"age":"54岁",
+			"duties":"现美国国务卿（第70任）",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "10",
+			"name": "斯蒂芬·梅努钦",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/Steven_Mnuchin_official_portrait.jpg",
+			"party":"共和党",
+			"age":"55岁",
+			"duties":"现美国财政部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "11",
+			"name": "詹姆斯·马蒂斯",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/220px-James_Mattis_official_photo.jpg",
+			"party":"共和党",
+			"age":"68岁",
+			"duties":"现美国国防部长",
+			"relationship":"内阁成员",
+			
+		},
+                {
+			"id": "12",
+			"name": "杰夫·塞申斯",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/220px-Jeff_Sessions_official_portrait.jpg",
+			"party":"共和党",
+			"age":"71岁",
+			"duties":"现美国司法部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "13",
+			"name": "瑞安·津凯",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/Ryan_Zinke_official_congressional_photo_(crop).jpg",
+			"party":"共和党",
+			"age":"56岁",
+			"duties":"现美国内政部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "14",
+			"name": "桑尼·珀杜",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/220px-Secretary_Sonny_Perdue_official_photo.jpg",
+			"party":"共和党",
+			"age":"71岁",
+			"duties":"现美国农业部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "15",
+			"name": "威尔伯·罗斯",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/Wilbur_Ross_Official_Portrait.jpg",
+			"party":"共和党",
+			"age":"80岁",
+			"duties":"现美国商务部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "16",
+			"name": "亚历克斯·阿科斯塔",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Alexander_Acosta_official_portrait.jpg",
+			"party":"共和党",
+			"age":"49岁",
+			"duties":"现美国劳工部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "17",
+			"name": "亚历克斯·阿扎",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Alex_Azar_official_portrait_(cropped).jpg",
+			"party":"共和党",
+			"age":"51岁",
+			"duties":"现卫生与公共服务部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "18",
+			"name": "本·卡森",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Ben_Carson_official_portrait.jpg",
+			"party":"共和党",
+			"age":"67岁",
+			"duties":"现住房与城市发展部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "19",
+			"name": "赵小兰",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Elaine_Chao_official_portrait.jpg",
+			"party":"共和党",
+			"age":"65岁",
+			"duties":"现运输部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "20",
+			"name": "里克·佩里",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Rick_Perry_official_portrait.jpg",
+			"party":"共和党",
+			"age":"68岁",
+			"duties":"现能源部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "21",
+			"name": "贝特西·德沃斯",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Betsy_DeVos_official_portrait.jpg",
+			"party":"共和党",
+			"age":"60岁",
+			"duties":"现教育部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "22",
+			"name": "罗伯特·威尔基",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Robert_Wilkie_official_portrait.jpg",
+			"party":"共和党",
+			"age":"56岁",
+			"duties":"现退伍军人事务部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "23",
+			"name": "克丝珍·尼尔森",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Kirstjen_Nielsen_official_photo.jpg",
+			"party":"共和党",
+			"age":"46岁",
+			"duties":"现国土安全部长",
+			"relationship":"内阁成员",
+			
+		},
+		{
+			"id": "24",
+			"name": "约翰·F·凯利",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 1
+			}
+			"imge":"./img/220px-John_Kelly_official_DHS_portrait.jpg",
+			"party":"无党籍",
+			"age":"68岁",
+			"duties":"白宫办公厅主任（幕僚长）",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "25",
+			"name": "劳勃·莱特海泽",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/Robert_Lighthizer_official_Transition_portrait.jpg",
+			"party":"共和党",
+			"age":"71岁",
+			"duties":"贸易代表",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "26",
+			"name": "丹·科茨",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/Dan_Coats_official_DNI_portrait.jpg",
+			"party":"共和党",
+			"age":"75岁",
+			"duties":"国家情报总监",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "27",
+			"name": "妮基·黑利",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Nikki_Haley_official_photo.jpg",
+			"party":"共和党",
+			"age":"46岁",
+			"duties":"驻联合国代表",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "28",
+			"name": "麦克·马瓦尼",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/Mick_Mulvaney_Official_Portrait_113th_Congress.jpg",
+			"party":"共和党",
+			"age":"51岁",
+			"duties":"行政管理和预算局局长",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "29",
+			"name": "吉娜·哈佩尔",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/220px-Gina_Haspel_official_CIA_portrait.jpg",
+			"party":"共和党",
+			"age":"62岁",
+			"duties":"中央情报局局长",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "30",
+			"name": "史考特·普鲁伊特",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/Scott_Pruitt_EPA_official_portrait.jpg",
+			"party":"共和党",
+			"age":"50岁",
+			"duties":"环境保护局局长",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "31",
+			"name": "琳达·麦马汉",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 4
+			}
+			"imge":"./img/Linda_McMahon_official_photo.jpg",
+			"party":"共和党",
+			"age":"70岁",
+			"duties":"小型企业管理署局长",
+			"relationship":"内阁级",
+			
+		},
+		{
+			"id": "32",
+			"name": "贝拉克·奥巴马",
+			"itemStyle": {
+				"normal": {
+					"color": "rgb(235,81,72)"
+				}
+			},
+			"symbolSize": 28.685715,
+			"x": null,
+			"y": null,
+			"attributes": {
+				"modularity_class": 3
+			}
+			"imge":"./img/Linda_McMahon_official_photo.jpg",
+			"party":"民主党",
+			"age":"57岁",
+			"duties":"前任美国总统（第44任）",
+			"relationship":"前任",
+			
+		},
+		],
+"links": [{
+			"id": "0",
+			"name": null,
+			"source": "1",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "1",
+			"name": null,
+			"source": "2",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "2",
+			"name": null,
+			"source": "3",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "3",
+			"name": null,
+			"source": "4",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "4",
+			"name": null,
+			"source": "5",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "5",
+			"name": null,
+			"source": "6",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "6",
+			"name": null,
+			"source": "7",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "7",
+			"name": null,
+			"source": "8",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "8",
+			"name": null,
+			"source": "9",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "9",
+			"name": null,
+			"source": "10",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "10",
+			"name": null,
+			"source": "11",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "11",
+			"name": null,
+			"source": "12",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "12",
+			"name": null,
+			"source": "13",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "13",
+			"name": null,
+			"source": "14",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "14",
+			"name": null,
+			"source": "15",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "15",
+			"name": null,
+			"source": "16",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "16",
+			"name": null,
+			"source": "17",
+			"target": "0",
+			"lineStyle": {}
+		},
+				{
+			"id": "17",
+			"name": null,
+			"source": "18",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "18",
+			"name": null,
+			"source": "19",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "19",
+			"name": null,
+			"source": "20",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "20",
+			"name": null,
+			"source": "21",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "21",
+			"name": null,
+			"source": "22",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "22",
+			"name": null,
+			"source": "23",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "23",
+			"name": null,
+			"source": "24",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "24",
+			"name": null,
+			"source": "25",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "25",
+			"name": null,
+			"source": "26",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "26",
+			"name": null,
+			"source": "27",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "27",
+			"name": null,
+			"source": "28",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "28",
+			"name": null,
+			"source": "29",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "29",
+			"name": null,
+			"source": "30",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "30",
+			"name": null,
+			"source": "31",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "31",
+			"name": null,
+			"source": "32",
+			"target": "0",
+			"lineStyle": {}
+		},
+		{
+			"id": "32",
+			"name": null,
+			"source": "33",
+			"target": "0",
+			"lineStyle": {}
+		},
+	]
+
+}

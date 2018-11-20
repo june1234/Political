@@ -1,0 +1,35 @@
+
+
+1	美国总统 					唐纳德·特朗普			共和党	72岁								220px-Donald_Trump_official_portrait.jpg
+2	美国副总统 	 			迈克·彭斯				共和党	59岁		内阁成员		1 	A1		220px-Mike_Pence_official_portrait.jpg
+3	美国第一夫人				梅拉尼娅·特朗普		共和党	48岁		妻子			1	B1		220px-Melania_Trump_official_portrait.jpg
+4	特朗普集团副董事长			小唐纳德·特朗普		共和党	40岁		长子			1	B1		DJT_Jr_cropped_shadowing_fix.jpg
+5	美国第一千金和总统顾问		伊万卡·特朗普			共和党	36岁		长女			1	B1		250px-Ivanka_Trump_official_photo.png
+6	特朗普集团副董事长			埃里克·特朗普			共和党	34岁		次子			1	B1		220px-Eric_Trump_by_Gage_Skidmore.jpg
+7	模特、歌手				蒂芙尼·特朗普			共和党	25岁		次女			1	B1		Tiffany_Trump_RNC_July_2016.jpg
+8	无						巴伦·特朗普			无		12岁		三子			1	B1		Barron_Trump_2016.png													2	B1
+9	前美国国务卿（第67任）		希拉里·克林顿			民主党	70岁		竞选对手		1	C1		240px-Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg		33	B1 		内阁
+10	现美国国务卿（第70任）		迈克·蓬佩奧			共和党	54岁		内阁成员		1	A1		440px-Mike_Pompeo_official_photo.jpg
+11	现美国财政部长			斯蒂芬·梅努钦			共和党	55岁		内阁成员		1	A1		Steven_Mnuchin_official_portrait.jpg
+12	现美国国防部长			詹姆斯·马蒂斯			共和党	68岁		内阁成员		1	A1		220px-James_Mattis_official_photo.jpg
+13	现美国司法部长			杰夫·塞申斯			共和党	71岁		内阁成员		1	A1		220px-Jeff_Sessions,_official_portrait.jpg
+14	现美国内政部长			瑞安·津凯				共和党	56岁		内阁成员		1	A1		Ryan_Zinke_official_congressional_photo_(crop).jpg
+15	现美国农业部长			桑尼·珀杜				共和党	71岁		内阁成员		1	A2		220px-Secretary_Sonny_Perdue_official_photo.jpg
+16	现美国商务部长			威尔伯·罗斯			共和党	80岁		内阁成员		1	A2		Wilbur_Ross_Official_Portrait.jpg
+17	现美国劳工部长			亚历克斯·阿科斯塔		共和党	49岁		内阁成员		1	A2		220px-Alexander_Acosta_official_portrait.jpg
+18	现卫生与公共服务部长		亚历克斯·阿扎			共和党	51岁		内阁成员		1	A2		220px-Alex_Azar_official_portrait_(cropped).jpg
+19	现住房与城市发展部长		本·卡森				共和党	67岁		内阁成员		1 	A2		220px-Ben_Carson_official_portrait.jpg
+20	现运输部长				赵小兰				共和党	65岁		内阁成员		1 	A2		220px-Elaine_Chao_official_portrait.jpg
+21	现能源部长				里克·佩里				共和党	68岁		内阁成员		1 	A2		220px-Rick_Perry_official_portrait.jpg
+22	现教育部长				贝特西·德沃斯			共和党	60岁		内阁成员		1 	A2		220px-Betsy_DeVos_official_portrait.jpg
+23	现退伍军人事务部长			罗伯特·威尔基			共和党	56岁		内阁成员		1 	A2		220px-Robert_Wilkie_official_portrait.jpg
+24	现国土安全部长			克丝珍·尼尔森			共和党	46岁		内阁成员		1 	A2		220px-Kirstjen_Nielsen_official_photo.jpg
+25	白宫办公厅主任（幕僚长）	约翰·F·凯利			无党籍	68岁		内阁级		1	A1		220px-John_Kelly_official_DHS_portrait.jpg
+26	贸易代表					劳勃·莱特海泽			共和党	71岁 	内阁级		1	A2		Robert_Lighthizer_official_Transition_portrait.jpg
+27  国家情报总监				丹·科茨				共和党	75岁 	内阁级		1	A2		Dan_Coats_official_DNI_portrait.jpg
+28	驻联合国代表				妮基·黑利				共和党	46岁 	内阁级		1	A2		220px-Nikki_Haley_official_photo.jpg
+29	行政管理和预算局局长		麦克·马瓦尼			共和党	51岁 	内阁级		1	A2		Mick_Mulvaney,_Official_Portrait,_113th_Congress.jpg
+30	中央情报局局长			吉娜·哈佩尔			共和党	62岁 	内阁级		1	A2		220px-Gina_Haspel_official_CIA_portrait.jpg
+31	环境保护局局长			史考特·普鲁伊特		共和党	50岁 	内阁级		1	A2		Scott_Pruitt,_EPA_official_portrait.jpg
+32	小型企业管理署局长			琳达·麦马汉			共和党	70岁		内阁级		1	A2		Linda_McMahon_official_photo.jpg
+33	前任美国总统（第44任）		贝拉克·奥巴马			民主党	57岁		前任 		1	C1		220px-President_Barack_Obama.jpg											

@@ -29,10 +29,10 @@
                 <img src="../../assets/index/u658.png" alt="" style="width:100%;">
               </a>
               <ul>
-                <li style="line-height:100px;"><span>政治人物：300人</span></li>
-                <li style="line-height:100px;"><span>法案：400个</span></li>
-                <li style="line-height:100px;"><span>新闻言论：10000条</span></li>
-                <li style="line-height:100px;"><span>推特：40000条</span></li>
+                <li style="line-height:100px;"><span>政治人物：583人</span></li>
+                <li style="line-height:100px;"><span>法案：412个</span></li>
+                <li style="line-height:100px;"><span>新闻言论：909743条</span></li>
+                <li style="line-height:100px;"><span>推特：1220987条</span></li>
               </ul>
               <img src="../../assets/line.png" alt="" style="width:100%;">
             </div>
@@ -126,14 +126,14 @@
                 <div class="party_D">
                   <div class="row">
                     <div class="col-lg-4 col-sm-12 col-xs-12">
-                      <a title="Robert P. Casey" href="#">
+                      <a title="Donald Trump" href="#" @click="detailUrl('Donald.Trump')">
                         <img src="../../assets/index/Trump.jpg" class="img-tweet">
                       </a>
                     </div>
                     <div class="col-lg-8 col-sm-12 col-xs-12">
                       <h3>
                         <span class="tweet-party">共和党</span>
-                        <a title="Robert P. Casey" href="#">Donald Trump</a>
+                        <a title="Donald Trump" href="#" @click="detailUrl('Donald Trump')">Donald.Trump</a>
                       </h3>
                       <a href="#" class="tw-legislator" target="_blank">
                         Democratic
@@ -141,13 +141,13 @@
                       <div class="meta-wrap" style="padding:0;">
                         <div class="row">
                           <div class="col-lg-4">
-                            <p><span class="count">领导力</span><br><span>100</span></p>
+                            <p><span class="count">推特粉丝</span><br><span>55.7M</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">经济形态</span><br><span>100</span></p>
+                            <p><span class="count">推特关注</span><br><span>46</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">社会形态</span><br><span>100</span></p>
+                            <p><span class="count">推特发文</span><br><span>39.7K</span></p>
                           </div>
                         </div>
                       </div>
@@ -162,9 +162,33 @@
             </div>
             <div class="col-md-6 col-xs-12">
               <h4>人物关系图谱</h4>
+              <div id="li" style="width:100%;height:500px;z-index:1000;">
+
+              </div>
             </div>
-            <h4 style="width:100%;text-align:left;margin-left:10px;">争议</h4>
-            <p><span>诺贝尔和平奖</span> <span>骂人事件</span> <span>“视频门”</span> <span>“川蔡通话”</span> <span>不被“一个中国”限制</span></p>
+            <h4 style="width:100%;text-align:left;margin-left:10px;">对华事件</h4>
+            <ul>
+              <li>"July 10, 2018": "Trumul administration releases list of tariffs on $200 billion worth of Chinese goods",</li>  
+              <li> "June 15, 2018": "Trump administration releases list of tariffs on $50 billion worth of Chinese goods",</li> 
+              <li> "June 7, 2018": "Commerce Department announces deal with ZTE",</li> 
+              <li>"May 29, 2018": "U.S. to place tariffs on China",</li>  
+              <li>"May 24, 2018": "House passes amendment preventing DoD from doing business with the ZTE",</li>  
+              <li>"May 19, 2018": "U.S. and China release trade statement",</li>  
+              <li>"April 3, 2018": "Trump administration releases list of Chinese imports that could be subject to a 25 percent tariff",</li>  
+              <li>"March 25, 2018": "House Intel Committee to open investigation into China's presence in Africa",</li>  
+              <li>"March 22, 2018": "Trump signs memorandum directing USTR to recommend actions to take against China for unfair trade practices",</li>  
+              <li>"March 8, 2018": "Trump announces a 25 percent tariff on steel imports and a 10 percent tariff on aluminum imports",</li>  
+              <li>"December 18, 2017": "National Security Strategy report critical of China's trade practices",</li>  
+              <li>"November 9, 2017": "Trump speaks to business leaders and meets with Xi",</li>  
+              <li>"November 8, 2017": "Xi welcomes Trump to China",</li>  
+              <li>"September 13, 2017": "Trump administration blocks private equity firm with Chinese ties from acquisition deal",</li>  
+              <li>"August 14, 2017": "Probe launched into Chinese trade practices",</li>  
+              <li>"June 22, 2017": "U.S.-China cooperation concerning North Korea",</li>  
+              <li>"May 12, 2017": "U.S. and China agree to first trade deal",</li>  
+              <li>"April 12, 2017": "Trump says China is not a currency manipulator",</li>  
+              <li>"February 9, 2017": "Trump agrees to honor 'One China' policy",</li>  
+              <li>"January 23, 2017": "U.S. will protect interests in South China Sea"</li>  
+            </ul>
           </div>
           <div class="row" style="background-color: #fff;margin-bottom:20px;">
             <h4 style="width:100%;line-height:60px;text-align:center;">热点政治人物</h4>
@@ -174,14 +198,14 @@
                 <div class="party_D">
                   <div class="row">
                     <div class="col-lg-4 col-sm-12 col-xs-12">
-                      <a title="Robert P. Casey" href="#">
+                      <a title="Mike Pompeo" href="#" @click="detailUrl('Mike.Pompeo')">
                         <img src="../../assets/index/Mike_Pompeo.jpg" class="img-tweet">
                       </a>
                     </div>
                     <div class="col-lg-8 col-sm-12 col-xs-12">
                       <h3>
                         <span class="tweet-party">共和党</span>
-                        <a title="Robert P. Casey" href="#">Mike.Pompeo</a>
+                        <a title="Mike Pompeo" href="#" @click="detailUrl('Mike Pompeo')">Mike.Pompeo</a>
                       </h3>
                       <a href="#" class="tw-legislator" target="_blank">
                         Democratic
@@ -189,13 +213,13 @@
                       <div class="meta-wrap" style="padding:0;">
                         <div class="row">
                           <div class="col-lg-4">
-                            <p><span class="count">领导力</span><br><span>100</span></p>
+                            <p><span class="count">推特粉丝</span><br><span>372K</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">经济形态</span><br><span>100</span></p>
+                            <p><span class="count">推特关注</span><br><span>45</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">社会形态</span><br><span>100</span></p>
+                            <p><span class="count">推特发文</span><br><span>472</span></p>
                           </div>
                         </div>
                       </div>
@@ -219,14 +243,14 @@
                 <div class="party_D">
                   <div class="row">
                     <div class="col-lg-4 col-sm-12 col-xs-12">
-                      <a title="john" href="#">
+                      <a title="John.F.Kelly" href="#" @click="detailUrl('John.F.Kelly')">
                         <img src="../../assets/index/john.jpg" class="img-tweet">
                       </a>
                     </div>
                     <div class="col-lg-8 col-sm-12 col-xs-12">
                       <h3>
                         <span class="tweet-party">共和党</span>
-                        <a title="Robert P. Casey" href="#">John.F.Kelly</a>
+                        <a title="John.F.Kelly" href="#" @click="detailUrl('John.F.Kelly')">John.F.Kelly</a>
                       </h3>
                       <a href="#" class="tw-legislator" target="_blank">
                         Democratic
@@ -234,13 +258,13 @@
                       <div class="meta-wrap" style="padding:0;">
                         <div class="row">
                           <div class="col-lg-4">
-                            <p><span class="count">领导力</span><br><span>100</span></p>
+                            <p><span class="count">领导力</span><br><span>0.81</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">经济形态</span><br><span>100</span></p>
+                            <p><span class="count">经济形态</span><br><span>0.50</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">社会形态</span><br><span>100</span></p>
+                            <p><span class="count">社会形态</span><br><span>0.35</span></p>
                           </div>
                         </div>
                       </div>
@@ -259,14 +283,14 @@
                 <div class="party_D">
                   <div class="row">
                     <div class="col-lg-4 col-sm-12 col-xs-12">
-                      <a title="Robert P. Casey" href="#">
+                      <a title="Mike.Pence" href="#" @click="detailUrl('Mike.Pence')">
                         <img src="../../assets/index/Mike.jpg" class="img-tweet">
                       </a>
                     </div>
                     <div class="col-lg-8 col-sm-12 col-xs-12">
                       <h3>
                         <span class="tweet-party">共和党</span>
-                        <a title="Robert P. Casey" href="#">Mike.Pence</a>
+                        <a title="Mike.Pence" href="#" @click="detailUrl('Mike.Pence')">Mike.Pence</a>
                       </h3>
                       <a href="#" class="tw-legislator" target="_blank">
                         Democratic
@@ -274,13 +298,13 @@
                       <div class="meta-wrap" style="padding:0;">
                         <div class="row">
                           <div class="col-lg-4">
-                            <p><span class="count">领导力</span><br><span>100</span></p>
+                            <p><span class="count">领导力</span><br><span>0.66</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">经济形态</span><br><span>100</span></p>
+                            <p><span class="count">经济形态</span><br><span>0.87</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">社会形态</span><br><span>100</span></p>
+                            <p><span class="count">社会形态</span><br><span>0.52</span></p>
                           </div>
                         </div>
                       </div>
@@ -299,14 +323,14 @@
                 <div class="party_D">
                   <div class="row">
                     <div class="col-lg-4 col-sm-12 col-xs-12">
-                      <a title="Mike" href="#">
+                      <a title="James.Mattis" href="#" @click="detailUrl('James.Mattis')">
                         <img src="../../assets/index/James.jpg" class="img-tweet">
                       </a>
                     </div>
                     <div class="col-lg-8 col-sm-12 col-xs-12">
                       <h3>
                         <span class="tweet-party">共和党</span>
-                        <a title="Robert P. Casey" href="#">James.Mattis</a>
+                        <a title="James.Mattis" href="#" @click="detailUrl('James.Mattis')">James.Mattis</a>
                       </h3>
                       <a href="#" class="tw-legislator" target="_blank">
                         Democratic
@@ -314,13 +338,13 @@
                       <div class="meta-wrap" style="padding:0;">
                         <div class="row">
                           <div class="col-lg-4">
-                            <p><span class="count">领导力</span><br><span>100</span></p>
+                            <p><span class="count">领导力</span><br><span>0.36</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">经济形态</span><br><span>100</span></p>
+                            <p><span class="count">经济形态</span><br><span>0.76</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">社会形态</span><br><span>100</span></p>
+                            <p><span class="count">社会形态</span><br><span>0.56</span></p>
                           </div>
                         </div>
                       </div>
@@ -339,14 +363,14 @@
                 <div class="party_D">
                   <div class="row">
                     <div class="col-lg-4 col-sm-12 col-xs-12">
-                      <a title="Robert P. Casey" href="#">
+                      <a title="Sherrod.Brown" href="#" @click="detailUrl('Sherrod.Brown')">
                         <img src="../../assets/index/Sherrod.Brown.jpg" class="img-tweet">
                       </a>
                     </div>
                     <div class="col-lg-8 col-sm-12 col-xs-12">
                       <h3>
                         <span class="tweet-party">共和党</span>
-                        <a title="Robert P. Casey" href="#">Sherrod.Brown</a>
+                        <a title="Sherrod.Brown" href="#" @click="detailUrl('Sherrod.Brown')">Sherrod.Brown</a>
                       </h3>
                       <a href="#" class="tw-legislator" target="_blank">
                         Democratic
@@ -354,13 +378,13 @@
                       <div class="meta-wrap" style="padding:0;">
                         <div class="row">
                           <div class="col-lg-4">
-                            <p><span class="count">领导力</span><br><span>100</span></p>
+                            <p><span class="count">领导力</span><br><span>0.82</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">经济形态</span><br><span>100</span></p>
+                            <p><span class="count">经济形态</span><br><span>0.45</span></p>
                           </div>
                           <div class="col-lg-4">
-                            <p><span class="count">社会形态</span><br><span>100</span></p>
+                            <p><span class="count">社会形态</span><br><span>0.432</span></p>
                           </div>
                         </div>
                       </div>
@@ -393,7 +417,8 @@ export default {
     this.POITICIANS();
     this.IDEOLOGY();
     this.MAP();
-    this.mike()
+    this.mike();
+    this.grounp()
   },
   components: {
     AppHeader
@@ -411,8 +436,8 @@ export default {
           }
         },
         grid: {
-          width: '100%',
-          height:300
+          width: "100%",
+          height: 300
         },
         xAxis: [
           {
@@ -1027,169 +1052,1287 @@ export default {
         MAPEcharts.resize();
       });
     },
-    mike(){
-      var res = require('../../assets/index/mike.json')
-			
-			var itemStyle = {
-			    normal: {
-			        opacity: 0.8,
-			        shadowBlur: 10,
-			        shadowOffsetX: 0,
-			        shadowOffsetY: 0,
-			        shadowColor: 'rgba(0, 0, 0, 0.5)'
-			    }
-			};
-			var a = []
-			var c = []
-			var oneperson = []
-			for(var i in res) {
-				var b = {}
-				var d = {}
-				var o = {}
-				if(res[i].nominate_dim1 > 0){
-					b.name = res[i].bioname
-					b.value = []
-					b.chamber = res[i].chamber
-					b.state_abbrev = res[i].state_abbrev
-					b.district_code = res[i].district_code
-					b.party = res[i].party
-					b.description = res[i].description
-					b.value.push(res[i].nominate_dim1)
-					b.value.push(res[i].nominate_dim2)
-					b.value.push(res[i].leadership)
-					a.push(b)
-				}
-				if(res[i].nominate_dim1 < 0){
-					d.name = res[i].bioname
-					d.value = []
-					d.chamber = res[i].chamber
-					d.state_abbrev = res[i].state_abbrev
-					d.district_code = res[i].district_code
-					d.party = res[i].party
-					d.description = res[i].description
-					d.value.push(res[i].nominate_dim1)
-					d.value.push(res[i].nominate_dim2)
-					d.value.push(res[i].leadership)
-					c.push(d)
-				}
-				if(res[i].bioguide_id == "P000602"){
-					o.name = res[i].bioname
-					o.value = []
-					o.chamber = res[i].chamber
-					o.state_abbrev = res[i].state_abbrev
-					o.district_code = res[i].district_code
-					o.party = res[i].party
-					o.description = res[i].description
-					o.value.push(res[i].nominate_dim1)
-					o.value.push(res[i].nominate_dim2)
-					o.value.push(res[i].leadership)
-					oneperson.push(o)
-				}
-			}
-      const dom=document.querySelector('#mike')
-			const myChart = this.$echarts.init(dom);
-			let option = null;
-			option = {
-				color: [
-			        '#dd4444', '#4169E1','#FFFF00'
-			    ],
-				tooltip: {
-					trigger: 'item',
-					formatter: function(params) {
-						console.log(params)
-						return '姓名:' + params.data.name + '<br/>' +
-							'选区:' + params.data.state_abbrev + params.data.district_code + '<br/>' +
-							'政党:' + params.data.party + '<br/>' +
-							'描述:' + params.data.description + '<br/>' +
-							'社会/种族维度:' + params.value[0] + '<br/>' +
-							'经济/再分配维度:' + params.value[1] + '<br/>' +
-							'领导力 :' + params.value[2]
+    mike() {
+      var res = require("../../assets/index/mike.json");
 
-					}
-				},
-				xAxis: {
-					name: '经济/再分配\n维度',
-					type: 'value',
-					min: -1.0,
-					max: 1.0,
-					splitNumber: 10
-				},
-				yAxis: {
-					name: '社会/种族维度',
-					type: 'value',
-					min: -1.0,
-					max: 1.0,
-					splitNumber: 10
-				},
-				grid: {
-					boxWidth: '100%',
-					boxDepth: 500,
-					viewControl: {},
-					light: {
-						main: {
-							intensity: 1.2,
-							shadow: false
-						},
-						ambient: {
-							intensity: 0.3
-						}
-					}
-				},
-				
-				series: [{
-					type: 'scatter',
-					data: a,
-					shading: 'lambert',
-					itemStyle: itemStyle,
-					label: {
-						textStyle: {
-							fontSize: 16,
-							borderWidth: 1
-						}
-					}
-				},
-				{
-					type: 'scatter',
-					data: c,
-					shading: 'lambert',
-					itemStyle: itemStyle,
-					label: {
-						textStyle: {
-							fontSize: 16,
-							borderWidth: 1
-						}
-					}
-				},
-				{
-					type: 'scatter',
-					data: oneperson,
-					shading: 'lambert',
-					itemStyle: itemStyle,
-					markPoint: {
-               			symbol: 'pin',
-               			label: {show: true},
-               			itemStyle: {
-                    		color: 'Black'},
-               			data: [
-                    		{name: '周最低',value: "Pompeo", xAxis:0.66, yAxis: 0.164}
-                			],
-                		silent: true
-            			},
-					label: {
-					textStyle: {
-							fontSize: 16,
-							borderWidth: 1
-						}
-					}
-				}]
-			};
-			if(option && typeof option === "object") {
-				myChart.setOption(option, true);
-			}
+      var itemStyle = {
+        normal: {
+          opacity: 0.8,
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowOffsetY: 0,
+          shadowColor: "rgba(0, 0, 0, 0.5)"
+        }
+      };
+      var a = [];
+      var c = [];
+      var oneperson = [];
+      for (var i in res) {
+        var b = {};
+        var d = {};
+        var o = {};
+        if (res[i].nominate_dim1 > 0) {
+          b.name = res[i].bioname;
+          b.value = [];
+          b.chamber = res[i].chamber;
+          b.state_abbrev = res[i].state_abbrev;
+          b.district_code = res[i].district_code;
+          b.party = res[i].party;
+          b.description = res[i].description;
+          b.value.push(res[i].nominate_dim1);
+          b.value.push(res[i].nominate_dim2);
+          b.value.push(res[i].leadership);
+          a.push(b);
+        }
+        if (res[i].nominate_dim1 < 0) {
+          d.name = res[i].bioname;
+          d.value = [];
+          d.chamber = res[i].chamber;
+          d.state_abbrev = res[i].state_abbrev;
+          d.district_code = res[i].district_code;
+          d.party = res[i].party;
+          d.description = res[i].description;
+          d.value.push(res[i].nominate_dim1);
+          d.value.push(res[i].nominate_dim2);
+          d.value.push(res[i].leadership);
+          c.push(d);
+        }
+        if (res[i].bioguide_id == "P000602") {
+          o.name = res[i].bioname;
+          o.value = [];
+          o.chamber = res[i].chamber;
+          o.state_abbrev = res[i].state_abbrev;
+          o.district_code = res[i].district_code;
+          o.party = res[i].party;
+          o.description = res[i].description;
+          o.value.push(res[i].nominate_dim1);
+          o.value.push(res[i].nominate_dim2);
+          o.value.push(res[i].leadership);
+          oneperson.push(o);
+        }
+      }
+      const dom = document.querySelector("#mike");
+      const myChart = this.$echarts.init(dom);
+      let option = null;
+      option = {
+        color: ["#dd4444", "#4169E1", "#FFFF00"],
+        tooltip: {
+          trigger: "item",
+          formatter: function(params) {
+            console.log(params);
+            return (
+              "姓名:" +
+              params.data.name +
+              "<br/>" +
+              "选区:" +
+              params.data.state_abbrev +
+              params.data.district_code +
+              "<br/>" +
+              "政党:" +
+              params.data.party +
+              "<br/>" +
+              "描述:" +
+              params.data.description +
+              "<br/>" +
+              "社会/种族维度:" +
+              params.value[0] +
+              "<br/>" +
+              "经济/再分配维度:" +
+              params.value[1] +
+              "<br/>" +
+              "领导力 :" +
+              params.value[2]
+            );
+          }
+        },
+        xAxis: {
+          name: "经济/再分配\n维度",
+          type: "value",
+          min: -1.0,
+          max: 1.0,
+          splitNumber: 10
+        },
+        yAxis: {
+          name: "社会/种族维度",
+          type: "value",
+          min: -1.0,
+          max: 1.0,
+          splitNumber: 10
+        },
+        grid: {
+          boxWidth: "100%",
+          boxDepth: 500,
+          viewControl: {},
+          light: {
+            main: {
+              intensity: 1.2,
+              shadow: false
+            },
+            ambient: {
+              intensity: 0.3
+            }
+          }
+        },
+
+        series: [
+          {
+            type: "scatter",
+            data: a,
+            shading: "lambert",
+            itemStyle: itemStyle,
+            label: {
+              textStyle: {
+                fontSize: 16,
+                borderWidth: 1
+              }
+            }
+          },
+          {
+            type: "scatter",
+            data: c,
+            shading: "lambert",
+            itemStyle: itemStyle,
+            label: {
+              textStyle: {
+                fontSize: 16,
+                borderWidth: 1
+              }
+            }
+          },
+          {
+            type: "scatter",
+            data: oneperson,
+            shading: "lambert",
+            itemStyle: itemStyle,
+            markPoint: {
+              symbol: "pin",
+              label: { show: true },
+              itemStyle: {
+                color: "Black"
+              },
+              data: [
+                { name: "周最低", value: "Pompeo", xAxis: 0.66, yAxis: 0.164 }
+              ],
+              silent: true
+            },
+            label: {
+              textStyle: {
+                fontSize: 16,
+                borderWidth: 1
+              }
+            }
+          }
+        ]
+      };
+      if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+      }
       window.addEventListener("resize", function() {
         myChart.resize();
       });
-    }
+    },
+    imga(url){
+      return require('../../assets/index/img/'+url)
+    },
+    grounp() {
+      var dom = document.querySelector('#li')
+      var myChart = this.$echarts.init(dom);
+      var app = {};
+      let option = null;
+      app.title = "力引导布局";
+      //myChart.showLoading();
+      var categories = [
+        { name: "总统" },
+        { name: "内阁级" },
+        { name: "政敌" },
+        { name: "内阁成员" },
+        { name: "亲属" }
+      ];
+
+      const graph = {
+        nodes: [
+          {
+            id: "0",
+            name: "唐纳德·特朗普",
+            itemStyle: {
+              normal: {
+                borderColor: "#fff",
+                borderWidth: 1,
+                shadowBlur: 100,
+                shadowColor: "rgba(0, 0, 0, 0.3)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 0
+            },
+
+            symbol: "image://"+this.imga('220px-Donald_Trump_official_portrait.png'),
+
+            party: "共和党",
+            age: "72岁",
+            duties: "总统",
+            relationship: "总统"
+          },
+          {
+            id: "1",
+            name: "迈克·彭斯",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('220px-Mike_Pence_official_portrait.png'),
+            party: "共和党",
+            age: "59岁",
+            duties: "美国副总统",
+            relationship: "内阁成员"
+          },
+          {
+            id: "2",
+            name: "梅拉尼娅·特朗普",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 4
+            },
+            symbol: "image://"+this.imga('220px-Melania_Trump_official_portrait.png'),
+            party: "共和党",
+            age: "48岁",
+            duties: "美国第一夫人",
+            relationship: "夫人"
+          },
+          {
+            id: "3",
+            name: "小唐纳德·特朗普",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 4
+            },
+            symbol: "image://"+this.imga('DJT_Jr_cropped_shadowing_fix.png'),
+            party: "共和党",
+            age: "40岁",
+            duties: "特朗普集团副董事长",
+            relationship: "长子"
+          },
+          {
+            id: "4",
+            name: "伊万卡·特朗普",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 4
+            },
+            symbol: "image://"+this.imga('250px-Ivanka_Trump_official_photo.png'),
+            party: "共和党",
+            age: "36岁",
+            duties: "美国第一千金和总统顾问",
+            relationship: "长女"
+          },
+          {
+            id: "5",
+            name: "埃里克·特朗普",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 4
+            },
+            symbol:  "image://"+this.imga('220px-Eric_Trump_by_Gage_Skidmore.png'),
+            party: "共和党",
+            age: "34岁",
+            duties: "特朗普集团副董事长",
+            relationship: "次子"
+          },
+          {
+            id: "6",
+            name: "蒂芙尼·特朗普",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 4
+            },
+            symbol: "image://"+this.imga('Tiffany_Trump_RNC_July_2016.png'),
+            party: "共和党",
+            age: "25岁",
+            duties: "模特、歌手",
+            relationship: "次女"
+          },
+          {
+            id: "7",
+            name: "巴伦·特朗普",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 4
+            },
+            symbol: "image://"+this.imga('Barron_Trump_2016.png'),
+            party: "共和党",
+            age: "12岁",
+            duties: "无",
+            relationship: "三子"
+          },
+          {
+            id: "8",
+            name: "希拉里·克林顿",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 2
+            },
+            symbol:
+               "image://"+this.imga('240px-Hillary_Clinton_official_Secretary_of_State_portrait_crop.png'),
+            party: "民主党",
+            age: "70岁",
+            duties: "前美国国务卿（第67任）",
+            relationship: "竞选对手"
+          },
+          {
+            id: "9",
+            name: "迈克·蓬佩奧",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('440px-Mike_Pompeo_official_photo.png'),
+            party: "共和党",
+            age: "54岁",
+            duties: "现美国国务卿（第70任）",
+            relationship: "内阁成员"
+          },
+          {
+            id: "10",
+            name: "斯蒂芬·梅努钦",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('Steven_Mnuchin_official_portrait.png'),
+            party: "共和党",
+            age: "55岁",
+            duties: "现美国财政部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "11",
+            name: "詹姆斯·马蒂斯",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('220px-James_Mattis_official_photo.png'),
+            party: "共和党",
+            age: "68岁",
+            duties: "现美国国防部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "12",
+            name: "杰夫·塞申斯",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('220px-Jeff_Sessions_official_portrait.png'),
+            party: "共和党",
+            age: "71岁",
+            duties: "现美国司法部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "13",
+            name: "瑞安·津凯",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('Ryan_Zinke_official_congressional_photo_(crop).png'),
+            party: "共和党",
+            age: "56岁",
+            duties: "现美国内政部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "14",
+            name: "桑尼·珀杜",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('220px-Secretary_Sonny_Perdue_official_photo.png'),
+            party: "共和党",
+            age: "71岁",
+            duties: "现美国农业部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "15",
+            name: "威尔伯·罗斯",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('Wilbur_Ross_Official_Portrait.png'),
+            party: "共和党",
+            age: "80岁",
+            duties: "现美国商务部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "16",
+            name: "亚历克斯·阿科斯塔",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Alexander_Acosta_official_portrait.png'),
+            party: "共和党",
+            age: "49岁",
+            duties: "现美国劳工部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "17",
+            name: "亚历克斯·阿扎",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Alex_Azar_official_portrait_(cropped).png'),
+            party: "共和党",
+            age: "51岁",
+            duties: "现卫生与公共服务部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "18",
+            name: "本·卡森",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Ben_Carson_official_portrait.png'),
+            party: "共和党",
+            age: "67岁",
+            duties: "现住房与城市发展部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "19",
+            name: "赵小兰",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Elaine_Chao_official_portrait.png'),
+            party: "共和党",
+            age: "65岁",
+            duties: "现运输部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "20",
+            name: "里克·佩里",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Rick_Perry_official_portrait.png'),
+            party: "共和党",
+            age: "68岁",
+            duties: "现能源部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "21",
+            name: "贝特西·德沃斯",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Betsy_DeVos_official_portrait.png'),
+            party: "共和党",
+            age: "60岁",
+            duties: "现教育部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "22",
+            name: "罗伯特·威尔基",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Robert_Wilkie_official_portrait.png'),
+            party: "共和党",
+            age: "56岁",
+            duties: "现退伍军人事务部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "23",
+            name: "克丝珍·尼尔森",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Kirstjen_Nielsen_official_photo.png'),
+            party: "共和党",
+            age: "46岁",
+            duties: "现国土安全部长",
+            relationship: "内阁成员"
+          },
+          {
+            id: "24",
+            name: "约翰·F·凯利",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 3
+            },
+            symbol: "image://"+this.imga('220px-John_Kelly_official_DHS_portrait.png'),
+            party: "无党籍",
+            age: "68岁",
+            duties: "白宫办公厅主任（幕僚长）",
+            relationship: "内阁级"
+          },
+          {
+            id: "25",
+            name: "劳勃·莱特海泽",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('Robert_Lighthizer_official_Transition_portrait.png'),
+            party: "共和党",
+            age: "71岁",
+            duties: "贸易代表",
+            relationship: "内阁级"
+          },
+          {
+            id: "26",
+            name: "丹·科茨",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('Dan_Coats_official_DNI_portrait.png'),
+            party: "共和党",
+            age: "75岁",
+            duties: "国家情报总监",
+            relationship: "内阁级"
+          },
+          {
+            id: "27",
+            name: "妮基·黑利",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Nikki_Haley_official_photo.png'),
+            party: "共和党",
+            age: "46岁",
+            duties: "驻联合国代表",
+            relationship: "内阁级"
+          },
+          {
+            id: "28",
+            name: "麦克·马瓦尼",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('Mick_Mulvaney_Official_Portrait_113th_Congress.png'),
+            party: "共和党",
+            age: "51岁",
+            duties: "行政管理和预算局局长",
+            relationship: "内阁级"
+          },
+          {
+            id: "29",
+            name: "吉娜·哈佩尔",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('220px-Gina_Haspel_official_CIA_portrait.png'),
+            party: "共和党",
+            age: "62岁",
+            duties: "中央情报局局长",
+            relationship: "内阁级"
+          },
+          {
+            id: "30",
+            name: "史考特·普鲁伊特",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('Scott_Pruitt_EPA_official_portrait.png'),
+            party: "共和党",
+            age: "50岁",
+            duties: "环境保护局局长",
+            relationship: "内阁级"
+          },
+          {
+            id: "31",
+            name: "琳达·麦马汉",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 1
+            },
+            symbol: "image://"+this.imga('Linda_McMahon_official_photo.png'),
+            party: "共和党",
+            age: "70岁",
+            duties: "小型企业管理署局长",
+            relationship: "内阁级"
+          },
+          {
+            id: "32",
+            name: "贝拉克·奥巴马",
+            itemStyle: {
+              normal: {
+                color: "rgb(235,81,72)"
+              }
+            },
+            symbolSize: 28.685715,
+
+            attributes: {
+              modularity_class: 2
+            },
+            symbol: "image://"+this.imga('220px-President_Barack_Obama.png'),
+            party: "民主党",
+            age: "57岁",
+            duties: "前任美国总统（第44任）",
+            relationship: "前任"
+          }
+        ],
+        links: [
+          {
+            id: "0",
+            name: null,
+            source: "1",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "1",
+            name: null,
+            source: "2",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "2",
+            name: null,
+            source: "3",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "3",
+            name: null,
+            source: "4",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "4",
+            name: null,
+            source: "5",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "5",
+            name: null,
+            source: "6",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "6",
+            name: null,
+            source: "7",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "7",
+            name: null,
+            source: "8",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "8",
+            name: null,
+            source: "9",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "9",
+            name: null,
+            source: "10",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "10",
+            name: null,
+            source: "11",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "11",
+            name: null,
+            source: "12",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "12",
+            name: null,
+            source: "13",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "13",
+            name: null,
+            source: "14",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "14",
+            name: null,
+            source: "15",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "15",
+            name: null,
+            source: "16",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "16",
+            name: null,
+            source: "17",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "17",
+            name: null,
+            source: "18",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "18",
+            name: null,
+            source: "19",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "19",
+            name: null,
+            source: "20",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "20",
+            name: null,
+            source: "21",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "21",
+            name: null,
+            source: "22",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "22",
+            name: null,
+            source: "23",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "23",
+            name: null,
+            source: "24",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "24",
+            name: null,
+            source: "25",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "25",
+            name: null,
+            source: "26",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "26",
+            name: null,
+            source: "27",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "27",
+            name: null,
+            source: "28",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "28",
+            name: null,
+            source: "29",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "29",
+            name: null,
+            source: "30",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "30",
+            name: null,
+            source: "31",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "31",
+            name: null,
+            source: "32",
+            target: "0",
+            lineStyle: {}
+          },
+          {
+            id: "32",
+            name: null,
+            source: "32",
+            target: "8",
+            lineStyle: {}
+          },
+          {
+            id: "33",
+            name: null,
+            source: "2",
+            target: "7",
+            lineStyle: {}
+          },
+          {
+            id: "34",
+            name: null,
+            source: "2",
+            target: "6",
+            lineStyle: {}
+          },
+          {
+            id: "35",
+            name: null,
+            source: "2",
+            target: "5",
+            lineStyle: {}
+          },
+          {
+            id: "36",
+            name: null,
+            source: "2",
+            target: "4",
+            lineStyle: {}
+          },
+          {
+            id: "37",
+            name: null,
+            source: "2",
+            target: "3",
+            lineStyle: {}
+          }
+        ]
+      };
+
+      graph.nodes.forEach(function(node) {
+        node.itemStyle = {
+          normal: {
+            label: {
+              position: "right",
+              textStyle: {
+                color: "black"
+              }
+            }
+          }
+        };
+
+        node.draggable = true;
+        node.value = node.category;
+
+        node.category = node.attributes.modularity_class;
+        var max = 150;
+        var min = 5;
+        var A = 1;
+        var B = 1;
+        var C = 1;
+        var D = 1;
+        var L = 50;
+
+        if (node.id == 0) {
+          node.symbolSize = [90, 90];
+          node.x = 0;
+          node.y = 0;
+        } else if (node.category == 4) {
+          if (node.id == "6" || node.id == "7") {
+            node.symbolSize = [35, 35];
+          } else {
+            node.symbolSize = [70, 70];
+          }
+          //位于坐标的右上角，y坐标为正数，x坐标为正数
+          node.x = 10 + parseInt(Math.random() * (max - min + 1) + min);
+          node.y = 10 + parseInt(Math.random() * (max - min + 1) + min);
+        } else if (node.category == 3) {
+          node.symbolSize = [50, 50];
+          //位于坐标的左下角，y坐标为负，x坐标为负
+          node.x = -10 - parseInt(Math.random() * (max - min + 1) + min);
+          node.y = -10 - parseInt(Math.random() * (max - min + 1) + min);
+        } else if (node.category == 2) {
+          node.symbolSize = [60, 60];
+          //位于坐标的右下角，y坐标为负，x坐标为正
+          node.x = 10 + parseInt(Math.random() * (max - min + 1) + min);
+          node.y = -10 - parseInt(Math.random() * (max - min + 1) + min);
+        } else {
+          node.symbolSize = [35, 35];
+          //位于坐标的左上角，y坐标为正，x坐标为负
+          node.x = -10 - parseInt(Math.random() * (max - min + 1) + min);
+          node.y = 10 + parseInt(Math.random() * (max - min + 1) + min);
+        }
+        // Use random x, y
+        //   node.x = node.y = null;
+        node.draggable = false;
+        node.lable = { show: true };
+        //node.symbol='circle' ;
+      });
+      graph.links.forEach(function(link) {
+        link.value = graph.nodes[link.source].category;
+        link.lineStyle = {
+          color: "source",
+          width: link.value + 2
+        };
+      });
+      console.log(graph);
+      option = {
+        title: {
+          text: "特朗普人物图谱",
+          top: "bottom",
+          left: "right"
+        },
+
+        legend: [
+          {
+            // selectedMode: 'single',
+            data: categories.map(function(a) {
+              return a.name;
+            })
+          }
+        ],
+        color: ["#e84855", "#043C17", "red", "#1b998b", "green"],
+        animation: true,
+        series: [
+          {
+            name: "特朗普关系图谱",
+            type: "graph",
+            layout: "none",
+            data: graph.nodes,
+            links: graph.links,
+            categories: categories,
+            legendHoverLink: true,
+            animationDuration: 1500,
+            animationEasingUpdate: "quinticInOut",
+            //symbol:'circle' ,
+            itemStyle: {
+              normal: {
+                borderColor: "#2d3047",
+                borderWidth: 1,
+                shadowBlur: 100,
+                shadowColor: "rgba(0, 0, 0, 0.3)"
+              }
+            },
+
+            // roam: true,
+            label: {
+              normal: {
+                formatter: function(params) {
+                  const str =
+                    "{a|  " +
+                    params.data.name +
+                    "  " +
+                    params.data.age +
+                    "  }{abg|}\n{hr|}\n  {b|" +
+                    params.data.duties +
+                    "  " +
+                    "} {per|" +
+                    params.data.party +
+                    "} ";
+                  return str;
+                },
+                backgroundColor: "#eee",
+                borderColor: "#aaa",
+                borderWidth: 1,
+                borderRadius: "50%",
+                rich: {
+                  a: {
+                    //color: '#999',
+                    lineHeight: 22,
+                    align: "center"
+                  },
+                  hr: {
+                    borderColor: "#aaa",
+                    width: "100%",
+                    borderWidth: 0.5,
+                    height: 0
+                  },
+                  b: {
+                    fontSize: 16,
+                    color: "#999",
+                    lineHeight: 33
+                  },
+                  per: {
+                    color: "#eee",
+                    backgroundColor: "#334455",
+                    padding: [2, 4],
+                    borderRadius: 2
+                  }
+                },
+
+                position: "left"
+              }
+            },
+
+            lineStyle: {
+              color: "source",
+              curveness: 0,
+              width: 20
+            },
+
+            force: {
+              edgeLength: [100, 200, 300, 400, 500], //连线的长度
+              repulsion: 900 //子节点之间的间距
+            }
+          }
+        ]
+      };
+      if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+      }
+      window.addEventListener("resize", function() {
+              myChart.resize();
+            });
+    },
+    detailUrl(val) {
+      this.$router.push({ path: "/person/detail", query: { name: val } });
+    },
   }
 };
 </script>
@@ -1242,16 +2385,16 @@ export default {
   line-height: 1em;
 }
 .legislator-wrap h3 .tweet-party {
-    position: absolute;
-    top: -48px;
-    left: 0;
-    display: block;
-    font-family: Montserrat;
-    font-size: 14px;
-    letter-spacing: .04em;
-    color: #fff;
-    padding: 2px 12px;
-    background-color: #24a3d7;
+  position: absolute;
+  top: -48px;
+  left: 0;
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 2px 12px;
+  background-color: #24a3d7;
 }
 .legislator-wrap .meta-wrap p {
   font-size: 18px;

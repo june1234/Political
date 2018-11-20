@@ -11,7 +11,8 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "build": "node --max_old_space_size=8192 build/build.js"
   },
   "dependencies": {
     "@inotom/vue-go-top": "^1.0.2",
@@ -42,6 +43,7 @@
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
     "echarts": "^4.2.0-rc.2",
+    "echarts-gl": "^1.1.1",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",

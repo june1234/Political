@@ -1,5 +1,5 @@
 <template>
-  <div style="position: relative;margin-top:7%;">
+  <div style="position: relative;">
     <img src="../../assets/yanlun.png" alt="" style="width:100%;height:200px;">
     <div class="container" style="background-color:#fff;padding-top:20px;">
       <ul class="nav nav-pills" id="myTab" role="tablist">

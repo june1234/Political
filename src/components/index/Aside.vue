@@ -11,28 +11,36 @@
           Menu
           <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-right:-50%">
+        <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-right:-10%">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <router-link to="/person/list" class="nav-link">人物</router-link>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">人&nbsp;&nbsp;&nbsp;物</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item"  @click="pathPersonList" href="javascript:return 0">州政要</a>
+                <a class="dropdown-item"  @click="pathPersonN" href="javascript:return 0">内阁人员</a>
+                <a class="dropdown-item" @click="pathPersonC" href="javascript:return 0">参议院</a>
+                <a class="dropdown-item" @click="pathPersonZ" href="javascript:return 0">众议院</a>
+                <a class="dropdown-item" @click="pathPersonD" href="javascript:return 0">民主党</a>
+                <a class="dropdown-item" @click="pathPersonR" href="javascript:return 0">共和党</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                国会
+                国&nbsp;&nbsp;&nbsp;会
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <router-link class="dropdown-item" to="/congress">概述</router-link>
-                <router-link class="dropdown-item" to="/committee">委员会</router-link>
+                <router-link class="dropdown-item" to="/content/congress">概&nbsp;&nbsp;&nbsp;&nbsp;述</router-link>
+                <router-link class="dropdown-item" to="/content/committee">委&nbsp;员&nbsp;会</router-link>
               </div>
             </li>
             <li class="nav-item">
-              <router-link to="/Issues" class="nav-link">议案</router-link>
+              <router-link to="/content/Issues" class="nav-link">议&nbsp;&nbsp;&nbsp;案</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/Remarks" class="nav-link">言论</router-link>
+              <router-link to="/content/Remarks" class="nav-link">言&nbsp;&nbsp;&nbsp;论</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">说明</a>
+              <a class="nav-link" href="#">说&nbsp;&nbsp;&nbsp;明</a>
             </li>
           </ul>
         </div>
@@ -50,6 +58,24 @@ export default {
   },
 
   methods: {
+  	  	pathPersonList(){
+  		this.$router.push('/content/person/list');
+  	},
+  	  	pathPersonN(){
+  		this.$router.push('/content/person/neige');
+  	},
+  	  	pathPersonC(){
+  		this.$router.push('/content/person/cyy');
+  	},
+  	  	pathPersonZ(){
+  		this.$router.push('/content/person/zyy');
+  	},
+  	 pathPersonD(){
+  		this.$router.push('/content/person/dparty');
+  	},
+    	 pathPersonR(){
+  		this.$router.push('/content/person/rparty');
+  	},	
     Router(url){
       return this.$router.push(url)
     }
@@ -80,8 +106,8 @@ export default {
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+ /* font-weight: 600;*/
   letter-spacing: 1px;
   text-transform: uppercase;
 }

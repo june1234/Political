@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="background-color:#fff;padding-top:20px;position: relative;margin-top:7%;">
+  <div class="container" style="background-color:#fff;padding-top:20px;position: relative;">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><router-link to="/Issues">法案列表</router-link></li>

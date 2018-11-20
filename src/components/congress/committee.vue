@@ -1,7 +1,5 @@
 <template>
 	<div class="container">
-		<div id="header">
-		</div>
 		<div class="body">
 			<div class="row" id="congress">
 				<div class="col-sm-6">
