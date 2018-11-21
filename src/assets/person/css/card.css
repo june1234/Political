@@ -110,6 +110,7 @@
     padding-top: 30px;
     padding-bottom: 15px;
     margin-top: 40px;
+    height: 500px;
 }
 .legislator-wrap h3 {
     position: relative;
@@ -127,7 +128,9 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: left;
+    margin-right: 5px;
 }
 p {
     margin: 0 0 10px;
+    font-size: 0.8em;
 }

@@ -8,7 +8,7 @@
           <div class="row">
             <div class="col-lg-5 col-md-12 mx-auto" style="background-color:#fff;margin:10px;padding:10px;">
               <ul style="padding-left:0;padding-bottom:10px;">
-                <h5 style="color:#fff;line-height:60px;background-color:rgb(163, 123, 224);border-radius: 10px;padding-left: 10px;">议案的种类</h5>
+                <h5 >武装与国土安全</h5>
                 <li style="line-height:30px;padding:10px 0;">
                   <a href="#" @click="Router('S2836')">
                     <img src="../../assets/issues/S2836.png" alt="议题图片" style="width:15%;">
@@ -46,7 +46,7 @@
             </div>
             <div class="col-lg-5 col-md-12 mx-auto" style="background-color:#fff;margin:10px;padding:10px;">
               <ul style="padding-left:0; padding-bottom:10px;">
-                <h5 style="color:#fff;line-height:60px;background-color:rgb(163, 123, 224);border-radius: 10px;padding-left: 10px;">议案的种类</h5>
+                <h5 >美国国际贸易</h5>
                 <li class="clearbox" style="line-height:30px;padding:10px 0;">
                   <a href="#" @click="Router('S2836')">
                     <img src="../../assets/issues/S2836.png" alt="议题图片" style="width:15%;">
@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-5 col-md-12 mx-auto" style="background-color:#fff;margin:10px;padding:10px;">
               <ul style="padding-left:0; padding-bottom:10px;">
-                <h5 style="color:#fff;line-height:60px;background-color:rgb(163, 123, 224);border-radius: 10px;padding-left: 10px;">议案的种类</h5>
+                <h5 >美国国际关系</h5>
                 <li style="line-height:30px;padding:10px 0;">
                   <a href="#" @click="Router('S2836')">
                     <img src="../../assets/issues/S2836.png" alt="议题图片" style="width:15%;">
@@ -122,7 +122,7 @@
             </div>
             <div class="col-lg-5 col-md-12 mx-auto" style="background-color:#fff;margin:10px;padding:10px;">
               <ul style="padding-left:0; padding-bottom:10px;">
-                <h5 style="color:#fff;line-height:60px;background-color:rgb(163, 123, 224);border-radius: 10px;padding-left: 10px;">议案的种类</h5>
+                <h5 >美国科技发展</h5>
                 <li class="clearbox" style="line-height:30px;padding:10px 0;">
                   <a href="#" @click="Router('S2836')">
                     <img src="../../assets/issues/S2836.png" alt="议题图片" style="width:15%;">
@@ -175,11 +175,18 @@ export default {
 
   methods: {
     Router(id) {
-      this.$router.push(`/Issues/detail/?id=${id}`);
+      this.$router.push(`/content/Issues/detail/?id=${id}`);
     }
   }
 };
 </script>
 
 <style scoped>
+	ul h5{
+		color:#fff;
+		line-height:60px;
+		background-color:#3b4754;
+		border-radius: 10px;
+		padding-left: 10px;
+	}
 </style>

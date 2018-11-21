@@ -48,29 +48,29 @@ export default new Router({
           component: () => import('@/components/person/detail.vue')
         },
         {
-          path: 'person/neige',
-          name: 'neige',
-          component: () => import('@/components/person/neige.vue')
+        	path:'person/neige',
+        	name:'neige',
+        	component:()=>import('@/components/person/neige.vue')
+        },
+                {
+        	path:'person/cyy',
+        	name:'neige',
+        	component:()=>import('@/components/person/cyy.vue')
         },
         {
-          path: 'person/cyy',
-          name: 'neige',
-          component: () => import('@/components/person/cyy.vue')
+        	path:'person/zyy',
+        	name:'neige',
+        	component:()=>import('@/components/person/zyy.vue')
         },
         {
-          path: 'person/zyy',
-          name: 'neige',
-          component: () => import('@/components/person/zyy.vue')
+        	path:'person/dparty',
+        	name:'neige',
+        	component:()=>import('@/components/person/dparty.vue')
         },
         {
-          path: 'person/dparty',
-          name: 'neige',
-          component: () => import('@/components/person/dparty.vue')
-        },
-        {
-          path: 'person/rparty',
-          name: 'neige',
-          component: () => import('@/components/person/rparty.vue')
+        	path:'person/rparty',
+        	name:'neige',
+        	component:()=>import('@/components/person/rparty.vue')
         },
         {
           path: 'congress',

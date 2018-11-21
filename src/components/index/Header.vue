@@ -5,7 +5,7 @@
       <div class="container">
       	 <div class="row">
                 <div class="col-xs-12">
-     <div class="search-wrapper">
+     						<div class="search-wrapper">
                         <form class="formElem form-inline">
                             <div class="form-control-1 form-group">
                                 <input type="text" placeholder="请选择要查看的届次" name="" class="form-control" />
@@ -28,24 +28,24 @@
                         </form>
                     </div>
                     
-              <ul style="width:100%;text-align:left;padding-bottom: 300px;">
+              <ul style="width:100%;text-align:left;padding-bottom: 300px;padding-top: 100px;">
 
                 <li style="line-height:20px;padding-top: 30px;padding-left:30px;padding-bottom: 15px;">
-                  <a href="#" style="color:#fff;font-size:18px;font-weight: 10;">副总统--彭斯</a>
+                  <a  style="color:#304356;font-size:18px;font-weight: 10;"  href="javascript:return 0" @click="pathPersonDetail('Mike.Pompeo')">副总统--彭斯</a>
                 </li>
                 <li style="line-height:20px;padding-left:150px;font-weight: 10;">
-                  <a href="#" style="color:#eee;font-size:12px;padding-right: 40px;">内阁</a>
-                  <a href="#" style="color:#eee;font-size:18px;">议题</a>
+                  <a  style="color:#304356;font-size:12px;padding-right: 40px;"  href="javascript:return 0" @click="pathPersonNeige">内阁</a>
+                  <a href="#" style="color:#304356;font-size:18px;">议题</a>
                 </li>
                   <li style="line-height:30px;padding-left:80px;padding-bottom: 10px;">
-                  <a href="#" style="color:#fff;font-size:20px;font-weight: 10;">总统--特朗普</a>
+                  <a  style="color:#304356;font-size:20px;font-weight: 10;"  href="javascript:return 0" @click="pathPersonDetail('Donald.Trump')">总统--特朗普</a>
                 </li>
                 <li style="line-height:20px;font-weight: 10;">
-                  <a href="#" style="color:#eee;font-size:14px;">议案</a>
+                  <a style="color:#304356;font-size:14px;" href="javascript:return 0" @click="pathIssues">议案</a>
                 </li>
                 <li style="line-height:18px;;padding-left:40px;font-weight: 10;">
-                  <a href="#" style="color:#fff;font-size:16px;padding-right: 15px;">国会</a>
-                  <a href="#" style="color:#eee;font-size:12px;">奥巴马</a>
+                  <a  style="color:#304356;font-size:16px;padding-right: 15px;"  href="javascript:return 0" @click="pathCongress">国会</a>
+                  <a href="#" style="color:#304356;font-size:12px;" >奥巴马</a>
                 </li>
               </ul>
                 </div>
@@ -63,11 +63,27 @@ export default {
     return {};
   },
 
-  methods: {}
+  methods: {
+  		pathPersonDetail(val){
+  		this.$router.push({path: '/content/person/detail',query:{ name:val}});
+  	},
+  	  	pathPersonNeige(){
+  		this.$router.push('/content/person/neige');
+  	},
+  	  	pathIssues(){
+  		this.$router.push('/content/Issues');
+  	},
+  	  pathCongress(){
+  		this.$router.push('/content/congress');
+  	}
+  }
 };
 </script>
 import '../../assets/mo/css/clean-blog.css';
 <style scoped>
+	li a {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #304356, 0 0 70px #304356, 0 0 80px #304356, 0 0 100px #304356, 0 0 150px #304356;
+	}
 .masthead {
   margin-bottom: 50px;
   background-color: #868e96;
@@ -316,7 +332,7 @@ import '../../assets/mo/css/clean-blog.css';
 
 .search-wrapper .btn-search{
 	position: relative;
-    margin-left: 1px;
+    margin-left: 2px;
     height: 80px;
     width: 100%;
     font-family: Montserrat;

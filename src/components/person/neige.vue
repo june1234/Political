@@ -102,7 +102,7 @@
 
 			//首选加州的数据
 			let temparray = require('../../assets/person/json/neige.json');
-			console.log(temparray);
+			
 			this.pushMan(temparray);
 
 		},
@@ -116,7 +116,7 @@
 				let total = temparray.length;
 				//遍历默认的键值为加利福尼亚州的人员数据
 				temparray.forEach(function(value, index) {
-					console.log("../../assets/person/json/man/" + value + ".json");
+					
 					try {
                         
 						var manjson = require("../../assets/person/json/man/" + value + ".json");
@@ -126,7 +126,7 @@
 						} catch(e) {
 							tmpimg = require("../../assets/person/json/image/225/webwxgetmsgimg.jpg")
 						}
-						console.log(manjson);
+						
 						//当图片不为空的时候装在图片
 						if(manjson.picture != "") {
 
@@ -165,10 +165,10 @@
 								tempnum++;
 
 							}
-							console.log(tempnum);
+							
 
 							if(listindex % 2 == 0) {
-								console.log("0");
+								
 								temparray1 = [];
 								temparray1.push(temp);
 								if((index + 1) == total) {
@@ -192,7 +192,7 @@
 			detailUrl(val) {
 
 				this.$router.push({
-					path: '/person/detail',
+					path: '/content/person/detail',
 					query: {
 						name: val
 					}

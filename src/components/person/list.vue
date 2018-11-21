@@ -168,7 +168,7 @@
 						max: 1,
 						precision: 1,
 						inRange: {
-							color: ['#ffffff', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
+							color: ['#ECDBAD', '#AD5B45', '#74624A', '#fdae61', '#A57F76', '#837363', '#B06C61']
 						},
 						text: ['High', 'Low'], // 文本，默认为数值文本
 						calculable: true
@@ -289,7 +289,7 @@ methods: {
 	//点击人物跳转至详细页面
 	detailUrl(val){
 	
-		this.$router.push({path: '/person/detail',query:{ name:val}});
+		this.$router.push({path: '/content/person/detail',query:{ name:val}});
 	},
 	
 	//更新地图列表,val为州英文名称

@@ -344,12 +344,10 @@
 			AppHeader
 		},
 		mounted() {
+		
 			let man = this.$route.query.name;
 			let myman = require("../../assets/person/json/man/" + man + ".json");
 			this.pushMan(myman);
-			console.log(this.manArray);
-			console.log(this.manArray.code);
-			console.log(this.manArray.timeline);
 			this.pushTalk();
 
 		},
@@ -413,7 +411,7 @@
 				let talk2 = require("../../assets/person/json/talk/2018-11-14.json");
 				let talk3 = require("../../assets/person/json/talk/2018-11-15.json");
 				let talk4 = require("../../assets/person/json/talk/2018-11-16.json");
-				console.log(that.manArray.code); 
+				
 				talk4.forEach(function(value, index) {
 				
 					if(value.code == that.manArray.code) {
@@ -440,7 +438,7 @@
 				});
 			
 		      
-               console.log(that.talkArray);
+          
 			},
 			//加载人员信息
 			pushMan(manjson) {

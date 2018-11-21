@@ -112,7 +112,7 @@
 				this.pushMan(temparray[name], name);
 			}
 
-			console.log(this.statePersonLists);
+			
 
 		},
 		methods: {
@@ -180,7 +180,7 @@
 							}
 
 							if(listindex % 2 == 0) {
-								console.log("0");
+								
 								temparray1 = [];
 								temparray1.push(temp);
 								if((index + 1) == total) {
@@ -204,7 +204,7 @@
 			detailUrl(val) {
 
 				this.$router.push({
-					path: '/person/detail',
+					path: '/content/person/detail',
 					query: {
 						name: val
 					}
